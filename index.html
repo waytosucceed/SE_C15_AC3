@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Finding the percentage of a given quantity :</div>
+
+        <div class="lesson-content">
+          <div>
+           
+           <p>
+            Finding the percentage of a given quantity means calculating a specific part of the total quantity, which is expressed as a percentage.
+           </p>
+           <h3>Step-by-Step Process:</h3>
+           <ol>
+            <li>
+              Convert the Percentage to a Fraction: Begin by expressing the percentage as a fraction. This is done by writing the percentage value over 100.<br>
+              <b>Example:</b> 20% becomes <math><mfrac bevelled="true"><mfrac><msup><mi>20</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> , which simplifies to <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math>
+            </li>
+            <li>
+              <b>Multiply by the Given Quantity:</b> Multiply the fraction you obtained from converting the percentage by the quantity for which you want to find the percentage. This multiplication gives you the part of the quantity that the percentage represents.
+            </li>
+           </ol>
+           <h3>Example:</h3>
+           <p>
+            Find 20% of 50.
+           </p>
+           <ul>
+            <li><b>Convert 20% to a fraction: </b><math><mfrac bevelled="true"><mfrac><msup><mi>20</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> = <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math></li>
+            <li><b>Multiply this fraction by the quantity: </b> <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>5</mi></msup></mfrac></mfrac></math> × 50 = 10</li>
+            <li><b>Result:</b> 20% of 50 is 10.</li>
+           </ul>
+              <h2>
+                Expressing One Quantity as a Percentage of Another Quantity
+              </h2>
+              <p>
+                When you express one quantity as a percentage of another, you are effectively describing how large or small the first quantity is relative to the second one, on a scale of 0 to 100. This helps in making meaningful comparisons and understanding relationships between different quantities.
+              </p>
+              <h3>
+                Steps to Express One Quantity as a Percentage of Another:
+              </h3>
+              <ol>
+                <li><b>Divide the ‘Part’ by the ‘Whole’:</b> Start by dividing the quantity you are interested in (the part) by the total or reference quantity (the whole). This gives you a decimal number.</li>
+                <li><b>Convert to Percentage:</b> Multiply the result from the division by 100 to convert it into a percentage. This final number represents the part as a percentage of the whole.</li>
+              </ol>
+              <h3>Example:</h3>
+              <p>
+                Suppose a class has 30 students, and 18 of them are girls. To find out what percentage of the class is girls:
+              </p>
+              <ul>
+                <li><b>Step 1:</b> Divide the number of girls by the total number of students:<math><mfrac bevelled="true"><mfrac><msup><mi>18</mi></msup></mfrac><mfrac><msup><mi>30</mi></msup></mfrac></mfrac></math>  = 0.6 .</li>
+                <li><b>Step 2:</b> Convert the decimal to a percentage: <br> (0.6 × 100)% = 60%</li>
+              </ul>
+              <p>
+                This calculation tells you that girls make up 60% of the class.
+                <br><br><b>Note:</b> To streamline the process, you can directly convert the fraction <math><mfrac bevelled="true"><mfrac><msup><mi>18</mi></msup></mfrac><mfrac><msup><mi>30</mi></msup></mfrac></mfrac></math> to a percentage by multiplying by 100 in a single step.
+              </p>
+              <br>
+                <hr>
+                <h2>Real-Life Examples of Percentage Usage</h2>
+                <p>
+                  Percentages are a vital part of everyday life, providing a way to express quantities in a standardized form that makes comparison and calculation straightforward.
+
+<br><b>Example :</b> Imagine you are organizing a technology conference and at the end of the event, you want to analyze the attendance demographics to better plan future events. You record that out of 200 attendees, 120 are male and 80 are female.
+
+                </p>
+                <h3>Calculate the Percentage of Male Attendees:</h3>
+                <p>
+                  Total attendees = 200
+Number of male attendees = 120
+Percentage of male attendees = (<math><mfrac bevelled="true"><mfrac><msup><mi>120</mi></msup></mfrac><mfrac><msup><mi>200</mi></msup></mfrac></mfrac></math> × 100)% = 60%
+
+                </p>
+                <h3>Calculate the Percentage of Female Attendees:</h3>
+                <p>
+                  Number of female attendees = 80
+Percentage of female attendees = (<math><mfrac bevelled="true"><mfrac><msup><mi>80</mi></msup></mfrac><mfrac><msup><mi>200</mi></msup></mfrac></mfrac></math> × 100)% = 40%
+<br><br>The analysis reveals that 60% of the attendees are male and 40% are female, indicating a predominance of male participants at the conference. Armed with this insight, organizers can choose topics that cater to the interests of both groups, ensuring a more inclusive and engaging event for all attendees.
+                </p>
+         
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

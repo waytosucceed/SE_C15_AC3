@@ -1,0 +1,182 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "What percentage is 25% of 120 litres?",
+    "options": [
+      "15 litres",
+      "20 litres",
+      "24 litres",
+      "30 litres"
+    ],
+    "correct": 3,
+    "explanation": "25% of 120 litres = 25/100 * 120 = 30 litres."
+  },
+  {
+    "questionNo": "Q2",
+    "question": "75% of 10 kg is ____.",
+    "options": [
+      "7 kg",
+      "7.2 kg",
+      "7.5 kg",
+      "8 kg"
+    ],
+    "correct": 2,
+    "explanation": "75% of 10 kg = 75/100 * 10 = 7.5 kg."
+  },
+  {
+    "questionNo": "Q3",
+    "question": "A score of 180 points is what percent of 200 points?",
+    "options": [
+      "80%",
+      "90%",
+      "95%",
+      "85%"
+    ],
+    "correct": 1,
+    "explanation": "180/200 * 100% = 90%."
+  },
+  {
+    "questionNo": "Q4",
+    "question": "What is 10% of an hour?",
+    "options": [
+      "6 minutes",
+      "10 minutes",
+      "15 minutes",
+      "12 minutes"
+    ],
+    "correct": 0,
+    "explanation": "An hour consists of 60 minutes. 10% of 60 minutes = 6 minutes."
+  },
+  {
+    "questionNo": "Q5",
+    "question": "What percentage of 500 mL is 50 mL?",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct": 1,
+    "explanation": "50/500 * 100% = 10%."
+  },
+  {
+    "questionNo": "Q6",
+    "question": "Express 300 grams as a percentage of 1500 grams.",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 1,
+    "explanation": "300/1500 * 100% = 20%."
+  },
+  {
+    "questionNo": "Q7",
+    "question": "Express 0.5 minute as a percentage of 10 minutes.",
+    "options": [
+      "0.5%",
+      "1%",
+      "2%",
+      "5%"
+    ],
+    "correct": 3,
+    "explanation": "0.5/10 * 100% = 5%."
+  },
+  {
+    "questionNo": "Q8",
+    "question": "During a survey, 45 out of 180 people said they watch television every day. What percentage does this represent?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 2,
+    "explanation": "45/180 * 100% = 25%."
+  },
+  {
+    "questionNo": "Q9",
+    "question": "If 10 out of 50 students are absent, what percentage are absent?",
+    "options": [
+      "20%",
+      "10%",
+      "15%",
+      "25%"
+    ],
+    "correct": 0,
+    "explanation": "10/50 * 100% = 20%."
+  },
+  {
+    "questionNo": "Q10",
+    "question": "A bag has 200 marbles, out of which 40 are black. What percentage of the marbles are black?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "10%"
+    ],
+    "correct": 1,
+    "explanation": "40/200 * 100% = 20%."
+  },
+  {
+    "questionNo": "Q11",
+    "question": "A recipe calls for 500 grams of flour, of which sugar must be 40%. How much sugar is needed?",
+    "options": [
+      "100 grams",
+      "200 grams",
+      "250 grams",
+      "150 grams"
+    ],
+    "correct": 1,
+    "explanation": "40% of 500 = 40/100 * 500 = 200 grams."
+  },
+  {
+    "questionNo": "Q12",
+    "question": "A parking lot has 300 spaces, and 25% are reserved for compact cars. How many compact car spaces are there?",
+    "options": [
+      "65 spaces",
+      "95 spaces",
+      "85 spaces",
+      "75 spaces"
+    ],
+    "correct": 3,
+    "explanation": "25% of 300 = 25/100 * 300 = 75 spaces."
+  },
+  {
+    "questionNo": "Q13",
+    "question": "On a rainy day, only 45 out of 60 students attended the lecture. What percentage of students were absent?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "30%"
+    ],
+    "correct": 1,
+    "explanation": "Absent students = 60 - 45 = 15. 15/60 * 100% = 25%."
+  },
+  {
+    "questionNo": "Q14",
+    "question": "A car travels 600 kilometers on a full tank of 50 liters. What percentage of the full tank does the car use to travel 120 kilometers?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "10%"
+    ],
+    "correct": 0,
+    "explanation": "120/600 * 100% = 20%."
+  },
+  {
+    "questionNo": "Q15",
+    "question": "A library has 8000 books, of which 1280 are fiction. What percentage of the books are non-fiction?",
+    "options": [
+      "78%",
+      "84%",
+      "90%",
+      "94%"
+    ],
+    "correct": 1,
+    "explanation": "Non-fiction books = 8000 - 1280 = 6720. 6720/8000 * 100% = 84%."
+  }
+]
